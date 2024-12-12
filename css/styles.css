@@ -1,0 +1,23 @@
+#container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.drop-zone {
+    width: 150px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 100px;
+    height: 150px;
+    background-color: #f4f4f4;
+    border: 1px solid #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
